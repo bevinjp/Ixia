@@ -1,28 +1,4 @@
-#---------------------------------------------------------------
-#
-# File:  IxOs_L2.tcl
-#
-# Classification:  UNCLASSIFIED
-#
-# Copyright (C) 2013 ViaSat, Inc.
-#
-# All rights reserved.
-# The information in this software is subject to change without notice and
-# should not be construed as a commitment by ViaSat, Inc.
-#
-# ViaSat Proprietary
-# The information provided herein is proprietary to ViaSat and
-# must be protected from further distribution and use. Disclosure to others,
-# use or copying without express written authorization of ViaSat, is strictly
-# prohibited.
-#
-#---------------------------------------------------------------
 
-#########################
-# Script Initialization #
-#########################
-
-# math::statistics for the mean/stdev, json::write for vipcat
 package require math::statistics
 package require json::write
 
